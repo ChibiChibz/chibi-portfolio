@@ -2,6 +2,7 @@ import nextMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
 import rehypePrism from '@mapbox/rehype-prism'
 
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx'],
@@ -10,18 +11,6 @@ const nextConfig = {
     scrollRestoration: true,
   },
   reactStrictMode: true,
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.pdf$/,
-      use: {
-        loader: 'file-loader',
-        options: {
-          name: '[path][name].[ext]',
-        },
-      },
-    });
-    return config;
-  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
