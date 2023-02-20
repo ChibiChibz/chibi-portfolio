@@ -92,8 +92,8 @@ function Project({ project }) {
       <Card.Title href={`/projects/${project.slug}`}>
         {project.title}
       </Card.Title>
-      <Card.Eyebrow as="time" dateTime={project.date} decorate>
-        {formatDate(project.date)}
+      <Card.Eyebrow as="company" decorate>
+        {project.company}
       </Card.Eyebrow>
       <Card.Description>{project.description}</Card.Description>
       <Card.Cta>Read project</Card.Cta>
@@ -599,7 +599,7 @@ export default function Home({ projects }) {
         </title>
         <meta
           name="description"
-          content="I'm Chibi, a web developer and multi-talent based in Frankfurt City. I’m the co-founder and CEO of Zenmade, where we develop portfolio websites that empower regular people to present their brand and work."
+          content="I'm Chibi, a web developer and multi-talent based in Frankfurt City. "
         />
       </Head>
       {/* <video src="/videos/Zoom65.mp4" type="video/mp4" autoplay="true" muted="true" playsInline="true" className="min-w-screen h-screen absolute top-0 mx-auto"></video> */}
@@ -610,7 +610,13 @@ export default function Home({ projects }) {
           Chi Thanh Pham - <nobr> Web Developer who likes to </nobr> create creative things.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Chibi, a web developer and multi-talent based in Frankfurt City. I’m the co-founder and CEO of Zenmade, where we develop portfolio websites that empower regular people to present their brand and work.
+            I’m Chibi, a web developer and multi-talent based in Frankfurt City. 
+            As a graduate with a degree in computer science and a experienced developer, 
+            I am excited to bring my passion for creating web magic to my current junior web developer role at SYZYGY. 
+            My hands-on experience through several work projects and personal projects, has equipped me with the technical skills necessary to make an immediate impact. 
+            On weekends I continue coding, where I develop portfolio websites that empower friends to present their brand and work. 
+            Sometimes I also like to do other work like personal fitness training, dance workshops & videography. 
+            I say work, but it is quite fun!
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
