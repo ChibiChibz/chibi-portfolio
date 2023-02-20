@@ -599,7 +599,7 @@ export default function Home({ projects }) {
         </title>
         <meta
           name="description"
-          content="I'm Chibi, a web developer and multi-talent based in Frankfurt City. I'm the co-founder and CEO of Zenmade, where we develop portfolio websites that empower regular people to present their brand and work."
+          content="I'm Chibi, a web developer and multi-talent based in Frankfurt City. I’m the co-founder and CEO of Zenmade, where we develop portfolio websites that empower regular people to present their brand and work."
         />
       </Head>
       {/* <video src="/videos/Zoom65.mp4" type="video/mp4" autoplay="true" muted="true" playsInline="true" className="min-w-screen h-screen absolute top-0 mx-auto"></video> */}
@@ -610,7 +610,7 @@ export default function Home({ projects }) {
           Chi Thanh Pham - <nobr> Web Developer who likes to </nobr> create creative things.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm Chibi, a web developer and multi-talent based in Frankfurt City. I'm the co-founder and CEO of Zenmade, where we develop portfolio websites that empower regular people to present their brand and work.
+            I’m Chibi, a web developer and multi-talent based in Frankfurt City. I’m the co-founder and CEO of Zenmade, where we develop portfolio websites that empower regular people to present their brand and work.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

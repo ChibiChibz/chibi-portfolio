@@ -43,7 +43,7 @@ export default function Gear() {
           <ToolsSection title="Workstation">
             <Tool title="14” MacBook Pro, M1 Pro, 16GB RAM (2021)">
               I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I've never heard the fans turn on a
+              difference is night and day. Ive never heard the fans turn on a
               single time, even under the incredibly heavy loads I put it
               through with our various launch simulations. For video editing
               with Final Cut the new Silicon Chips are just ridicilously fast.
@@ -58,13 +58,13 @@ export default function Gear() {
             </Tool>
             <Tool title="Zoom 65 Olivia Edition">
               I just recommend any custom mechanical keyboard because it is a
-              prestige typing experience. As typing is my career, I don't mind
+              prestige typing experience. As typing is my career, I don’t mind
               investing more money. Akko has budget pre-built options. If you
               just want functionality go with Logitech MX Keys.
             </Tool>
             <Tool title="Logitech MX Master 3">
               The quality, the extra buttons, the horizontal scroll. For coding
-              and video editing it's the best mouse on the market.
+              and video editing it’s the best mouse on the market.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
@@ -75,7 +75,7 @@ export default function Gear() {
             </Tool>
             <Tool title="iTerm2/Hyper">
               I’m honestly not even sure what features I get with this that
-              aren’t just part of the macOS Terminal but it's what I use.
+              aren’t just part of the macOS Terminal but it’s what I use.
             </Tool>
             <Tool title="LocalWP for WordPress">
               The easiest way to word locally with WordPress.
@@ -83,7 +83,7 @@ export default function Gear() {
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              We started using Figma as just a design tool but now it's become
+              We started using Figma as just a design tool but now it’s become
               our virtual whiteboard for the entire company. Never would have
               expected the collaboration features to be the real hook.
             </Tool>
